@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio | Tobar Raihan</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Loading Screen -->
+    <div class="loader">
+        <div class="loader-circle"></div>
+        <p>Loading...</p>
+    </div>
+
+    <!-- Background -->
+    <div class="background">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <a href="#home" class="logo">
+            <span>&lt;</span>TR<span>/&gt;</span>
+        </a>
+
+        <nav class="nav-menu">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">Tentang</a>
+            <a href="#education" class="nav-link">Pendidikan</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Project</a>
+            <a href="#contact" class="nav-link">Kontak</a>
+        </nav>
+
+        <button class="menu-button" id="menuButton">
+            ☰
+        </button>
+    </header>
+
+
+    <main>
+
+        <!-- ================= HOME ================= -->
+        <section id="home" class="hero section">
+
+            <div class="hero-content reveal">
+
+                <p class="small-title">
+                    <span class="status-dot"></span>
+                    Available for learning
+                </p>
+
+                <h1>
+                    Halo, saya
+                    <span class="gradient-text">Tobar Raihan</span>
+                </h1>
+
+                <h2>
+                    Saya seorang
+                    <span id="typing"></span>
+                </h2>
+
+                <p class="hero-description">
+                    Seorang pelajar yang sedang mempelajari dunia
+                    programming, jaringan komputer, dan pengembangan
+                    website.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary">
+                        Lihat Project
+                    </a>
+
+                    <a href="#contact" class="btn secondary">
+                        Hubungi Saya
+                    </a>
+                </div>
+
+                <div class="social-links">
+
+                    <a href="#" aria-label="GitHub">
+                        GitHub
+                    </a>
+
+                    <a href="#" aria-label="Instagram">
+                        Instagram
+                    </a>
+
+                    <a href="#" aria-label="Email">
+                        Email
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-image reveal">
+
+                <div class="image-decoration"></div>
+
+                <div class="profile-container">
+
+                    <img
+                        src="assets/profile.jpg"
+                        alt="Foto Tobar Raihan"
+                        class="profile-image"
+                    >
+
+                </div>
+
+                <div class="floating-card card-1">
+                    <span>💻</span>
+                    <div>
+                        <strong>Programming</strong>
+                        <small>Learning</small>
+                    </div>
+                </div>
+
+                <div class="floating-card card-2">
+                    <span>🌐</span>
+                    <div>
+                        <strong>Networking</strong>
+                        <small>Learning</small>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+        <section id="about" class="section">
+
+            <div class="section-title reveal">
+                <span>01</span>
+                <h2>Tentang Saya</h2>
+                <p>Kenalan sedikit, manusia di balik kode.</p>
+            </div>
+
+
+            <div class="about-grid">
+
+                <div class="about-text reveal">
+
+                    <h3>
+                        Saya sedang membangun
+                        <span class="gradient-text">
+                            kemampuan saya.
+                        </span>
+                    </h3>
+
+                    <p>
+                        Saya adalah seorang pelajar yang tertarik
+                        dengan teknologi, programming, jaringan
+                        komputer, dan pengembangan website.
+                    </p>
+
+                    <p>
+                        Saat ini saya masih dalam tahap belajar.
+                        Jadi kalau ada kode error, itu bukan bug.
+                        Tapi pelajaran bagi saya.
+                    </p>
+
+                    <div class="about-info">
+
+                        <div>
+                            <span>Nama</span>
+                            <strong>Tobar Raihan</strong>
+                        </div>
+
+                        <div>
+                            <span>Fokus</span>
+                            <strong>Programming & Networking</strong>
+                        </div>
+
+                        <div>
+                            <span>Learning</span>
+                            <strong>HTML, CSS, JS, Python</strong>
+                        </div>
+
+                        <div>
+                            <span>Goal</span>
+                            <strong>Network Engineer</strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="about-card reveal">
+
+                    <div class="code-window">
+
+                        <div class="window-header">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <pre><code>
+const developer = {
+    name: "Tobar Raihan",
+
+    skills: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Python",
+        "Networking"
+    ],
+
+    learning: true,
+
+    coffee: "probably"
+};
+                        </code></pre>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= EDUCATION ================= -->
+        <section id="education" class="section">
+
+            <div class="section-title reveal">
+                <span>02</span>
+                <h2>Pendidikan</h2>
+                <p>Tempat saya mengumpulkan ilmu dan tugas.</p>
+            </div>
+
+
+            <div class="timeline">
+
+                <div class="timeline-item reveal">
+
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-card">
+
+                        <span class="timeline-year">
+                            2025 - Sekarang
+                        </span>
+
+                        <h3>
+                            Sekolah Menengah Kejuruan Negeri 1 Tambelang
+                        </h3>
+
+                        <p>
+                            Jurusan Teknik Komputer dan Jaringan.
+                        </p>
+
+                        <div class="tag">
+                            TKJ
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="timeline-item reveal">
+
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-card">
+
+                        <span class="timeline-year">
+                            Sebelumnya
+                        </span>
+
+                        <h3>
+                            Sekolah Menengah Pertama Negeri 1 Tambelang
+                        </h3>
+
+                        <p>
+                            Masa awal mengenal teknologi dan
+                            komputer.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SKILLS ================= -->
+        <section id="skills" class="section">
+
+            <div class="section-title reveal">
+                <span>03</span>
+                <h2>Skills</h2>
+                <p>Teknologi yang sedang saya pelajari.</p>
+            </div>
+
+
+            <div class="skills-grid">
+
+                <div class="skill-card reveal">
+
+                    <div class="skill-icon">
+                        &lt;/&gt;
+                    </div>
+
+                    <h3>HTML</h3>
+
+                    <p>
+                        Struktur dan semantic website.
+                    </p>
+
+                    <div class="skill-bar">
+                        <div style="--progress: 80%"></div>
+                    </div>
+
+                    <span>80%</span>
+
+                </div>
+
+
+                <div class="skill-card reveal">
+
+                    <div class="skill-icon">
+                        #
+                    </div>
+
+                    <h3>CSS</h3>
+
+                    <p>
+                        Styling, responsive design,
+                        animation.
+                    </p>
+
+                    <div class="skill-bar">
+                        <div style="--progress: 70%"></div>
+                    </div>
+
+                    <span>70%</span>
+
+                </div>
+
+
+                <div class="skill-card reveal">
+
+                    <div class="skill-icon">
+                        JS
+                    </div>
+
+                    <h3>JavaScript</h3>
+
+                    <p>
+                        Logic dan interaksi website.
+                    </p>
+
+                    <div class="skill-bar">
+                        <div style="--progress: 55%"></div>
+                    </div>
+
+                    <span>55%</span>
+
+                </div>
+
+
+                <div class="skill-card reveal">
+
+                    <div class="skill-icon">
+                        Py
+                    </div>
+
+                    <h3>Python</h3>
+
+                    <p>
+                        Programming dan aplikasi sederhana.
+                    </p>
+
+                    <div class="skill-bar">
+                        <div style="--progress: 60%"></div>
+                    </div>
+
+                    <span>60%</span>
+
+                </div>
+
+
+                <div class="skill-card reveal">
+
+                    <div class="skill-icon">
+                        🖧
+                    </div>
+
+                    <h3>Networking</h3>
+
+                    <p>
+                        Cisco Packet Tracer dan jaringan dasar.
+                    </p>
+
+                    <div class="skill-bar">
+                        <div style="--progress: 75%"></div>
+                    </div>
+
+                    <span>75%</span>
+
+                </div>
+
+
+                <div class="skill-card reveal">
+
+                    <div class="skill-icon">
+                        🐧
+                    </div>
+
+                    <h3>Linux</h3>
+
+                    <p>
+                        Command line dan basic system.
+                    </p>
+
+                    <div class="skill-bar">
+                        <div style="--progress: 45%"></div>
+                    </div>
+
+                    <span>45%</span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROJECTS ================= -->
+        <section id="projects" class="section">
+
+            <div class="section-title reveal">
+                <span>04</span>
+                <h2>Projects</h2>
+                <p>Beberapa project yang pernah dibuat.</p>
+            </div>
+
+
+            <div class="projects-grid">
+
+                <article class="project-card reveal">
+
+                    <div class="project-image project-network">
+                        <span>NETWORK</span>
+                    </div>
+
+                    <div class="project-content">
+
+                        <span class="project-number">
+                            01
+                        </span>
+
+                        <h3>
+                            Cisco Network
+                        </h3>
+
+                        <p>
+                            Simulasi jaringan menggunakan
+                            Cisco Packet Tracer dengan router,
+                            switch, DHCP, VLAN dan routing.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>Cisco</span>
+                            <span>Networking</span>
+                            <span>DHCP</span>
+                        </div>
+
+                        <a href="#" class="project-link">
+                            Lihat Project →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card reveal">
+
+                    <div class="project-image project-web">
+                        <span>WEB</span>
+                    </div>
+
+                    <div class="project-content">
+
+                        <span class="project-number">
+                            02
+                        </span>
+
+                        <h3>
+                            Portfolio Website
+                        </h3>
+
+                        <p>
+                            Website portfolio dengan animasi,
+                            responsive design, dan JavaScript.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <a href="#" class="project-link">
+                            Lihat Project →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card reveal">
+
+                    <div class="project-image project-python">
+                        <span>PYTHON</span>
+                    </div>
+
+                    <div class="project-content">
+
+                        <span class="project-number">
+                            03
+                        </span>
+
+                        <h3>
+                            CRUD Python
+                        </h3>
+
+                        <p>
+                            Aplikasi sederhana untuk mengelola
+                            data menggunakan Python.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>CRUD</span>
+                        </div>
+
+                        <a href="#" class="project-link">
+                            Lihat Project →
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+        <section id="contact" class="section contact-section">
+
+            <div class="section-title reveal">
+                <span>05</span>
+                <h2>Kontak</h2>
+                <p>Mau ngobrol atau punya project?</p>
+            </div>
+
+
+            <div class="contact-container reveal">
+
+                <div class="contact-text">
+
+                    <h3>
+                        Let's build something
+                        <span class="gradient-text">
+                            interesting.
+                        </span>
+                    </h3>
+
+                    <p>
+                        Hubungi saya melalui salah satu platform
+                        berikut.
+                    </p>
+
+                </div>
+
+
+                <div class="contact-links">
+
+                    <a href="tobarraihan754@gmail.com"
+                       class="contact-item">
+
+                        <span class="contact-icon">
+                            @
+                        </span>
+
+                        <div>
+                            <small>Email</small>
+                            <strong>
+                                tobarraihan754@gmail.com
+                            </strong>
+                        </div>
+
+                    </a>
+
+
+                    <a href="#"
+                       class="contact-item">
+
+                        <span class="contact-icon">
+                            GH
+                        </span>
+
+                        <div>
+                            <small>GitHub</small>
+                            <strong>
+                                github.com/username
+                            </strong>
+                        </div>
+
+                    </a>
+
+
+                    <a href="https://www.instagram.com/itz.niki0_0?psln=MWc1b3owODF4ZHhiNw=="
+                       class="contact-item">
+
+                        <span class="contact-icon">
+                            IG
+                        </span>
+
+                        <div>
+                            <small>Instagram</small>
+                            <strong>
+                                @itz.niki0_0
+                            </strong>
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="footer-content">
+
+            <div class="logo">
+                <span>&lt;</span>TR<span>/&gt;</span>
+            </div>
+
+            <p>
+                Dibuat dengan HTML, CSS & JavaScript.
+            </p>
+
+            <p>
+                © <span id="year"></span> Tobar Raihan
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Back To Top -->
+    <button id="backTop" class="back-top">
+        ↑
+    </button>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
